@@ -1,4 +1,5 @@
 *
+!apply_aur_repo.sh
 !ttf-cinecaption/PKGBUILD
 !otf-rubik/PKGBUILD
 !nody-greeter/PKGBUILD

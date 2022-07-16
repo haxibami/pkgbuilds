@@ -1,3 +1,4 @@
+# Maintainer: haxibami <contact(at)haxibami(dot)net>
 pkgname=nody-greeter
 pkgver=1.5.0
 pkgrel=1
@@ -6,7 +7,7 @@ arch=("any")
 url="https://github.com/JezerM/nody-greeter"
 license=("GPL3")
 depends=("lightdm" "gobject-introspection" "cairo")
-makedepends=("nodejs<17" "npm" "python3")
+makedepends=("git" "nodejs<17" "npm" "python3")
 source=("${pkgname}-${pkgver}::git+${url}.git#tag=${pkgver}" "package.patch")
 sha256sums=(
   "SKIP"
