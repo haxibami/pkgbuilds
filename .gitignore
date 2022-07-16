@@ -1,2 +1,5 @@
-ttf-cinecaption/ttf-cinecaption
-otf-rubik/otf-rubik
+*
+!ttf-cinecaption/PKGBUILD
+!otf-rubik/PKGBUILD
+!nody-greeter/PKGBUILD
+!nody-greeter/package.patch
