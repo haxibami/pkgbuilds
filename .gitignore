@@ -1,7 +1,4 @@
-*
-!apply_aur_repo.sh
-!ttf-cinecaption/PKGBUILD
-!otf-rubik/PKGBUILD
-!nody-greeter/PKGBUILD
-!nody-greeter/package.patch
-!hotate/PKGBUILD
+ttf-cinecaption/ttf-cinecaption
+otf-rubik/otf-rubik
+nody-greeter/nody-greeter
+hotate/hotate

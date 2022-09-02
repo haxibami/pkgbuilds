@@ -1,0 +1,31 @@
+pkgname=hotate
+pkgver=0.1.0_alpha
+pkgrel=1
+pkgdesc="vertical-writing editor"
+arch=('x86_64')
+url="https://github.com/haxibami/hotate"
+license=('MIT')
+depends=(
+  'webkit2gtk-4.1'
+  'gtk3'
+)
+makedepends=()
+source=("https://github.com/haxibami/hotate/releases/download/v0.1.0/hotate_0.1.0_amd64.deb")
+sha256sums=('52dcf2f66dcce9c8c85b045c0bebb5827f6dc912c0aa12ad8abe0151fb527ffa')
+
+package() {
+    tar -xf data.tar.gz
+
+    # bin
+    install -m755 -D usr/bin/hotate "$pkgdir/usr/bin/hotate"
+
+    # Icons
+    for i in 32x32 128x128; do
+    	install -Dm644 usr/share/icons/hicolor/$i/apps/hotate.png \
+    		"$pkgdir"/usr/share/icons/hicolor/$i/apps/hotate.png
+    done
+
+    # desktop file
+    install -Dm644 usr/share/applications/hotate.desktop \
+    	"$pkgdir"/usr/share/applications/hotate.desktop
+}
