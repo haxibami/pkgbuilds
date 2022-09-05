@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://github.com/haxibami/hotate"
 license=('MIT')
 depends=(
-  'webkit2gtk-4.1'
+  'webkit2gtk'
   'gtk3'
 )
 makedepends=()
