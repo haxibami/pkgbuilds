@@ -1,6 +1,6 @@
 # Maintainer: haxibami <contact(at)haxibami(dot)net>
 pkgname=nody-greeter
-pkgver=1.5.0
+pkgver=1.5.1
 pkgrel=1
 pkgdesc="LightDM greeter that allows to create wonderful themes with web technologies. Made in Node.js"
 arch=("any")

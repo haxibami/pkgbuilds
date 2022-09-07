@@ -1,0 +1,46 @@
+# Maintainer: haxibami <me at haxibami dot net>
+
+pkgname=ddcui
+pkgver=0.3.0
+pkgrel=1
+pkgdesc='ddcui is a beta version of a graphical user interface for ddcutil, implemented using Qt.'
+url='https://www.ddcutil.com/ddcui_main/'
+license=('GPL2')
+source=(
+	"git+https://github.com/rockowitz/ddcui#tag=v${pkgver}"
+	ddcui.desktop
+)
+sha256sums=(
+	'SKIP'
+	'a715bdb2d1d2f0669e40823fde2cee917aca6edd702722af451ce8d34aeda6b6'
+)
+arch=('i686' 'x86_64')
+provides=('ddcui')
+
+depends=(
+	'ddcutil'
+	'qt5-base'
+)
+
+makedepends=(
+	'git'
+	'cmake'
+	'qt5-tools'
+)
+
+build() {
+	cd "${srcdir}/${pkgname}"
+
+	cmake \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-D CMAKE_BUILD_TYPE=release \
+		.
+
+	make
+}
+
+package() {
+	cd "${srcdir}/${pkgname}"
+	make DESTDIR="${pkgdir}" install
+	install -D -m664 ../ddcui.desktop $pkgdir/usr/share/applications/ddcui.desktop
+}
