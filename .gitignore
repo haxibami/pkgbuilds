@@ -9,11 +9,13 @@
 
 !README.md
 
+!akaza-data/PKGBUILD
 !ddcui/PKGBUILD
 !ddcui/ddcui.desktop
 !hotate/PKGBUILD
-!nody-greeter/PKGBUILD
-!nody-greeter/package.patch
+!ibus-akaza/PKGBUILD
+!nody-greeter-git/PKGBUILD
+!nody-greeter-git/package.patch
 !otf-rubik/PKGBUILD
 !ttf-cinecaption/PKGBUILD
 !yubioath-desktop6/PKGBUILD

@@ -1,0 +1,37 @@
+# Maintainer: haxibami <contact at haxibami dot net>
+
+pkgname=ibus-akaza
+pkgdesc="Yet another Japanese IME for IBus/Linux"
+pkgver=0.1.6
+pkgrel=1
+arch=('x86_64')
+url="https://github.com/tokuhirom/akaza"
+license=('unknown')
+depends=('ibus' 'python-marisa')
+optdepends=('akaza-data: official provided data')
+makedepends=('cargo')
+source=("https://github.com/tokuhirom/akaza/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('6a76e06d871d76ba45f16524f9ee37bb0ec8ed4035b20ead5c31d692d04bd7d5')
+
+prepare() {
+  cd "${srcdir}/akaza-${pkgver}/ibus-akaza"
+  sed -i \
+    "s|cargo install --path=. --root=\$(PREFIX)|cargo install --path=. --root=${pkgdir}/usr|" \
+    Makefile
+}
+
+build() {
+  cd "${srcdir}/akaza-${pkgver}/ibus-akaza"
+  make DESTDIR="${pkgdir}" PREFIX=/usr
+}
+
+package() {
+  install -dm755 "${pkgdir}/usr/share/ibus-akaza"
+  install -dm755 "${pkgdir}/usr/share/ibus/component"
+
+  cd "${srcdir}/akaza-${pkgver}/ibus-akaza"
+  make DESTDIR="${pkgdir}" PREFIX=/usr install
+
+  rm "${pkgdir}/usr/.crates.toml"
+  rm "${pkgdir}/usr/.crates2.json"
+}

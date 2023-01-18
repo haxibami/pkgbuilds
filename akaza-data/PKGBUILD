@@ -1,0 +1,24 @@
+# Maintainer: haxibami <contact at haxibami dot net>
+
+pkgname=akaza-data
+pkgdesc="Yet another Japanese IME for IBus/Linux (data)"
+pkgver=0.1.6
+pkgrel=1
+arch=('x86_64')
+url="https://github.com/tokuhirom/akaza"
+license=('MIT')
+source=("https://github.com/tokuhirom/akaza/releases/download/v${pkgver}/akaza-data.tar.gz")
+sha256sums=('97c7900f7d7e13b08f8a968f7e42390b8dceab9d7d092ad9bb4986a39f92d62b')
+
+package() {
+  cd "${srcdir}"
+  install -dm755 "${pkgdir}/usr/share/akaza"
+  install -Dm644 akaza-data/bigram.model "${pkgdir}/usr/share/akaza/"
+  install -Dm644 akaza-data/unigram.model "${pkgdir}/usr/share/akaza/"
+  install -Dm644 akaza-data/SKK-JISYO.akaza "${pkgdir}/usr/share/akaza/"
+  install -Dm644 akaza-data/SKK-JISYO.dynamic "${pkgdir}/usr/share/akaza/"
+  install -Dm644 akaza-data/README.md "${pkgdir}/usr/share/akaza/"
+
+  install -Dm644 akaza-data/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 akaza-data/LEGAL "${pkgdir}/usr/share/licenses/${pkgname}/LEGAL"
+}

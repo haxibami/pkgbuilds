@@ -3,7 +3,7 @@
 pkgname=ddcui
 pkgver=0.3.0
 pkgrel=1
-pkgdesc='ddcui is a beta version of a graphical user interface for ddcutil, implemented using Qt.'
+pkgdesc='A beta version of a graphical user interface for ddcutil, implemented using Qt'
 url='https://www.ddcutil.com/ddcui_main/'
 license=('GPL2')
 source=(
