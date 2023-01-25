@@ -13,4 +13,4 @@ PKGBUILDS for Arch Linux
 | nody-greeter-git  | 1.5.2       | LightDM greeter that allows to create wonderful themes with web technologies |
 | otf-rubik         | 2.2.0       | a sans serif font family with slightly rounded corners                       |
 | ttf-cinecaption   | 2.27        | A cinematic Japanese font                                                    |
-| yubioath-desktop6 | 6.0.2       | Crossplatform graphical user interface for YubiKey one-time passwords        |
+| yubioath-desktop6 | 6.1.0       | Crossplatform graphical user interface for YubiKey one-time passwords        |
