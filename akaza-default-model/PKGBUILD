@@ -1,0 +1,24 @@
+# Maintainer: haxibami <contact at haxibami dot net>
+
+pkgname=akaza-default-model
+pkgdesc="Yet another Japanese IME for IBus/Linux (model & dictionary)"
+pkgver=0.1.13
+pkgrel=1
+arch=('x86_64')
+url="https://github.com/akaza-im/akaza-default-model"
+license=('MIT')
+source=("${url}/releases/download/v${pkgver}/akaza-default-model.tar.gz")
+sha256sums=('8bc644f7e458ba16bb59e103c52080e678d8c95872d308f33c918bab209cf6e4')
+
+package() {
+  cd "${srcdir}"
+  install -dm755 "${pkgdir}/usr/share/akaza/model/default"
+  install -Dm644 akaza-default-model/bigram.model "${pkgdir}/usr/share/akaza/model/default/"
+  install -Dm644 akaza-default-model/unigram.model "${pkgdir}/usr/share/akaza/model/default/"
+  install -Dm644 akaza-default-model/SKK-JISYO.akaza "${pkgdir}/usr/share/akaza/model/default/"
+  install -Dm644 akaza-default-model/SKK-JISYO.dynamic "${pkgdir}/usr/share/akaza/model/default/"
+  install -Dm644 akaza-default-model/README.md "${pkgdir}/usr/share/akaza/model/default/"
+
+  install -Dm644 akaza-default-model/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 akaza-default-model/LEGAL "${pkgdir}/usr/share/licenses/${pkgname}/LEGAL"
+}
