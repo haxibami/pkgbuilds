@@ -1,0 +1,21 @@
+--- a/ddcci/ddcci.c	2023-02-04 13:12:01.515283023 +0900
++++ b/ddcci/ddcci.c	2023-02-04 13:13:26.140377734 +0900
+@@ -463,18 +463,6 @@ static int ddcci_identify_device(struct
+ 		return -EIO;
+ 	}
+ 
+-	/* validate first byte */
+-	if (buffer[0] != addr) {
+-		dev_dbg(&client->dev,
+-			"[%02x:%02x] identification response: %*ph\n",
+-			client->addr << 1, addr, (ret > 32 ? 32 : ret), buffer);
+-
+-		dev_dbg(&client->dev,
+-			"[%02x:%02x] identification response invalid (expected first byte %02x, got %02x)\n",
+-			client->addr << 1, addr, addr, buffer[0]);
+-		return -ENODEV;
+-	}
+-
+ 	/* Check if first byte is doubled (QUIRK_SKIP_FIRST_BYTE) */
+ 	if (!(quirks & DDCCI_QUIRK_SKIP_FIRST_BYTE)) {
+ 		if (buffer[0] == buffer[1]) {
