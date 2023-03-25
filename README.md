@@ -7,7 +7,7 @@ PKGBUILDS for Arch Linux
 | pkgname                         | ver         | desc                                                                         |
 | ------------------------------- | ----------- | ---------------------------------------------------------------------------- |
 | akaza-default-model             | 0.4.0       | Yet another Japanese IME for IBus/Linux (model & dictionary)                 |
-| bloopai-bloop-bin               | 0.3.1       | A fast code search engine written in Rust                                    |
+| bloopai-bloop-bin               | 0.3.2       | A fast code search engine written in Rust                                    |
 | ddcci-driver-linux-dkms-patched | 0.4.3       | A pair of Linux kernel drivers for DDC/CI monitors (DKMS)                    |
 | ddcui                           | 0.3.0       | A beta version of a graphical user interface for ddcutil                     |
 | hotate                          | 0.1.0-alpha | A vertical-writing editor                                                    |

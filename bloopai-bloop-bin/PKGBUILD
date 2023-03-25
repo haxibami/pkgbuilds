@@ -1,7 +1,7 @@
 # maintainer: haxibami <me at haxibami.net>
 
 pkgname=bloopai-bloop-bin
-pkgver=0.3.1
+pkgver=0.3.2
 pkgrel=1
 pkgdesc="A fast code search engine written in Rust"
 arch=('x86_64')
@@ -11,9 +11,7 @@ depends=('gtk3' 'webkit2gtk')
 source=(
   "https://github.com/BloopAI/bloop/releases/download/v${pkgver}/bloop_${pkgver}_amd64.deb"
 )
-sha256sums=(
-  'b04714a7d971173201db6f555b1ad9159721c6500dfc332749d6b29101faf532'
-)
+sha256sums=('c038787763e3d8d556bc074d06eb4ceef953a5830fba6818c0ba365f3506e622')
 
 package() {
   cd "$srcdir"
