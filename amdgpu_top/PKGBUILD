@@ -1,0 +1,28 @@
+# Maintainer haxibami <me at haxibami dot net>
+
+pkgname=amdgpu_top
+pkgver=0.1.2
+pkgrel=1
+pkgdesc="A tool to show AMDGPU usage"
+url="https://github.com/Umio-Yasuno/amdgpu_top"
+source=(
+  "${url}/archive/refs/tags/v${pkgver}.tar.gz"
+)
+sha256sums=(
+  "bd0d7eb5a824cdfc605eab3c71103a85e8d50eacc39a389176d19840ae345516"
+)
+arch=("any")
+license=("MIT")
+depends=("glibc" "libdrm" "ncurses")
+makedepends=("cargo")
+provides=("amdgpu_top")
+
+build() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+  cargo build --release
+}
+
+package() {
+  cd "${srcdir}/${pkgname}-${pkgver}"
+  install -Dm755 "target/release/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+}
