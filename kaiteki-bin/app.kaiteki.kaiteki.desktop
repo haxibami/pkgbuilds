@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=kaiteki
+GenericName=kaiteki
+Exec="kaiteki"
+Icon=app.kaiteki.kaiteki
+Type=Application
+Categories=Network;SocialNetwork;
+Keywords=sns;social;misskey;mastodon;calckey;

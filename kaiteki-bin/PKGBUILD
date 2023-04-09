@@ -1,0 +1,37 @@
+# Maintainer haxibami <me at haxibami dot net>
+
+pkgname=kaiteki-bin
+pkgver=2023_14
+pkgrel=1
+pkgdesc="The comfy SNS client for everything, everywhere"
+url="https://github.com/Kaiteki-Fedi/Kaiteki"
+arch=("x86_64")
+license=("AGPL3")
+source=(
+  "${url}/releases/download/weekly-${pkgver}/linux.zip"
+  "app.kaiteki.kaiteki.desktop"
+)
+sha256sums=(
+  "09368d9dde184500f48189a5c7ead2b34319b8dbd601af7a118596f9031af25e"
+  "647b07e3dc91a1d7ded4cc45a3cd2567da141f143ad6ab3e464a6d2f4fe6ce8f"
+)
+provides=("kaiteki")
+
+package() {
+  cd "${srcdir}"
+  install -dm755 "${pkgdir}/opt/kaiteki"
+  install -dm755 "${pkgdir}/usr/bin"
+
+  # binary
+  install -Dm755 ./linux/kaiteki "${pkgdir}/opt/kaiteki/kaiteki"
+
+  # assets
+  cp -r {linux/data,linux/lib} "${pkgdir}/opt/kaiteki"
+
+  # desktop file
+  install -Dm644 ./app.kaiteki.kaiteki.desktop "${pkgdir}/usr/share/applications/app.kaiteki.kaiteki.desktop"
+  install -Dm644 ./linux/data/flutter_assets/assets/icon.png "${pkgdir}/usr/share/icons/hicolor/128x128/apps/app.kaiteki.kaiteki.png"
+
+  ln -s /opt/kaiteki/kaiteki "${pkgdir}/usr/bin/kaiteki"
+}
+

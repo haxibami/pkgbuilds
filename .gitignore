@@ -19,6 +19,8 @@
 !ddcui/ddcui.desktop
 !hotate/PKGBUILD
 !ibus-akaza/PKGBUILD
+!kaiteki-bin/PKGBUILD
+!kaiteki-bin/app.kaiteki.kaiteki.desktop
 !nody-greeter-git/PKGBUILD
 !nody-greeter-git/package.patch
 !otf-rubik/PKGBUILD
