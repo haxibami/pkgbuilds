@@ -1,4 +1,5 @@
-# Maintainer: haxibami <contact(at)haxibami(dot)net>
+# Maintainer: haxibami <contact at haxibami dot net>
+
 pkgname=nody-greeter-git
 pkgver=1.5.2
 pkgrel=1

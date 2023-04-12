@@ -1,5 +1,5 @@
-# Maintainer: Ewout van Mansom <ewout@vanmansom.name>
-# Contributor: Iwan Timmer <irtimmer@gmail.com>
+# Maintainer: haxibami <contact at haxibami dot net>
+# Contributor: Iwan Timmer <irtimmer@gmail.com> Ewout van Mansom <ewout@vanmansom.name>
 
 pkgname=ddcci-driver-linux-dkms-patched
 pkgver=0.4.3
