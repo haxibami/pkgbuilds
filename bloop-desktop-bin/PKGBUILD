@@ -1,13 +1,14 @@
 # Maintainer: haxibami <contact at haxibami dot net>
 
-pkgname=bloopai-bloop-bin
+pkgname=bloop-desktop-bin
 pkgver=0.3.3
 pkgrel=1
 pkgdesc="A fast code search engine written in Rust"
 arch=('x86_64')
 url="https://github.com/BloopAI/bloop"
 license=('Apache')
-depends=('gtk3' 'webkit2gtk')
+depends=('gtk3' 'webkit2gtk' 'ctags' 'qdrant')
+provides=('bloop-desktop')
 source=(
   "https://github.com/BloopAI/bloop/releases/download/v${pkgver}/bloop_${pkgver}_amd64.deb"
 )
@@ -17,7 +18,9 @@ package() {
   cd "$srcdir"
 
   echo " -> Extracting the data.tar.gz..."
-  bsdtar -xf data.tar.gz -C "$pkgdir/"
+  tar -xf data.tar.gz -C "$pkgdir/"
+
+  rm "$pkgdir/usr/bin/ctags" "$pkgdir/usr/bin/qdrant"
 
   install -dm755 "$pkgdir/usr"
   install -dm755 "$pkgdir/usr/bin"

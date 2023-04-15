@@ -9,9 +9,8 @@
 
 !README.md
 
-!akaza-default-model/PKGBUILD
 !amdgpu_top/PKGBUILD
-!bloopai-bloop-bin/PKGBUILD
+!bloop-desktop-bin/PKGBUILD
 !ddcci-driver-linux-dkms-patched/PKGBUILD
 !ddcci-driver-linux-dkms-patched/dkms.conf
 !ddcci-driver-linux-dkms-patched/detection.patch
@@ -25,5 +24,7 @@
 !nody-greeter-git/package.patch
 !otf-rubik/PKGBUILD
 !pipes-rs/PKGBUILD
+!qdrant/PKGBUILD
 !ttf-cinecaption/PKGBUILD
+!xkblas/PKGBUILD
 !yubioath-desktop6/PKGBUILD
