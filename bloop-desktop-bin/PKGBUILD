@@ -20,7 +20,7 @@ package() {
   echo " -> Extracting the data.tar.gz..."
   tar -xf data.tar.gz -C "$pkgdir/"
 
-  rm "$pkgdir/usr/bin/ctags" "$pkgdir/usr/bin/qdrant"
+  rm "$pkgdir/usr/bin/qdrant"
 
   install -dm755 "$pkgdir/usr"
   install -dm755 "$pkgdir/usr/bin"
