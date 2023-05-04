@@ -2,9 +2,9 @@
 
 pkgname=yubioath-desktop6
 _pkgname=yubioath-desktop
-pkgver=6.1.0
+pkgver=6.2.0
 pkgrel=1
-pkgdesc="Crossplatform graphical user interface for YubiKey one-time passwords"
+pkgdesc="Crossplatform graphical user interface for YubiKey one-time passwords (files placed correctly)"
 arch=('x86_64')
 url="https://www.yubico.com/blog/introducing-yubico-authenticator-6-for-desktop/"
 license=('Apache 2.0')
@@ -12,10 +12,10 @@ conflicts=("yubioath-desktop" "yubioath-desktop-beta-bin")
 depends=('pcsclite' 'ccid' 'gnome-screenshot')
 options=(!strip)
 source=("https://github.com/Yubico/yubioath-flutter/releases/download/${pkgver}/yubico-authenticator-${pkgver}-linux.tar.gz")
-sha256sums=('be686148475d642027d6126ea0984578aa2c22a179a565dc24b81b72ea457417')
+sha256sums=('6304b8a345914fd9869fab94b3492f50706b0f536c0aeedc3404968de1766536')
 
 package() {
-    cd ./yubico-authenticator-${pkgver}-linux
+    cd ./yubioath-desktop-${pkgver}-linux
     install -dm755 "${pkgdir}/opt/${_pkgname}"
     install -dm755 "${pkgdir}/usr/bin"
 

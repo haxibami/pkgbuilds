@@ -1,6 +1,6 @@
---- a/ddcci/ddcci.c	2023-03-18 11:20:29.120025826 +0900
-+++ b/ddcci/ddcci.c	2023-03-18 11:22:35.350132181 +0900
-@@ -463,18 +463,6 @@ static int ddcci_identify_device(struct
+--- old/ddcci/ddcci.c
++++ new/ddcci/ddcci.c
+@@ -464,18 +464,6 @@ static int ddcci_identify_device(struct
  		return -EIO;
  	}
  

@@ -13,6 +13,7 @@
 !bloop-desktop-bin/PKGBUILD
 !ddcci-driver-linux-dkms-patched/PKGBUILD
 !ddcci-driver-linux-dkms-patched/dkms.conf
+!ddcci-driver-linux-dkms-patched/linux-6.3-fix.patch
 !ddcci-driver-linux-dkms-patched/detection.patch
 !ddcui/PKGBUILD
 !ddcui/ddcui.desktop

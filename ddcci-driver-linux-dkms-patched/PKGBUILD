@@ -1,10 +1,12 @@
 # Maintainer: haxibami <contact at haxibami dot net>
-# Contributor: Iwan Timmer <irtimmer@gmail.com> Ewout van Mansom <ewout@vanmansom.name>
+# Original Maintainer: Ewout van Mansom <ewout at vanmansom dot name>
+# Contributor: Iwan Timmer <irtimmer at gmail dot com>
+# Patch: Oleksandr Natalenko <https://gitlab.com/post-factum>
 
 pkgname=ddcci-driver-linux-dkms-patched
 pkgver=0.4.3
-pkgrel=1
-pkgdesc="A pair of Linux kernel drivers for DDC/CI monitors (DKMS)"
+pkgrel=2
+pkgdesc="A pair of Linux kernel drivers for DDC/CI monitors (DKMS): monitor detection patched"
 arch=('i686' 'x86_64' 'aarch64')
 url="https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/"
 license=('GPL2')
@@ -12,13 +14,18 @@ depends=('dkms')
 conflicts=("ddcci-driver-linux" "ddcci-driver-linux-dkms")
 source=(
   "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/archive/v${pkgver}/ddcci-driver-linux-v${pkgver}.tar.gz"
+  "linux-6.3-fix.patch"
   "detection.patch"
 )
-b2sums=('71f855b8d7e4b9a1b5d38a73d4a6df7453e72600596121f68c6782f180211bd935ab30cf0cf94cc0528e8d5f732449d35b24cd9584d17083318d819b81a0b259'
-        'b417fe458e53e89689edd0b068374fbe9779f105133fab0e0b9348ff0a239f535eba55256e24d471b4178932865a388f53556612dfe6056b24b412e5caa98b83')
+b2sums=(
+  '71f855b8d7e4b9a1b5d38a73d4a6df7453e72600596121f68c6782f180211bd935ab30cf0cf94cc0528e8d5f732449d35b24cd9584d17083318d819b81a0b259'
+  'ee9cf8b7eeb8f092c54f73e30d39e772b3c5212b1f2725c4280807c72997616e7c6b4edc65d57c317601f2827519f1aa6c5c66524a589f2fba6fb5d81409d979'
+  '8623c4cb385bafa6d56a0c0500812cef120522123b919bc47a810206f99965e694b5b3ecd8b0539da271331f283982034e766e69f958c46c50ca89d8ea9923aa'
+)
 
 prepare() {
     cd "ddcci-driver-linux-v${pkgver}"
+    patch --forward --strip=1 --input="${srcdir}/linux-6.3-fix.patch"
     patch --forward --strip=1 --input="${srcdir}/detection.patch"
 }
 
