@@ -9,23 +9,19 @@
 
 !README.md
 
-!amdgpu_top/PKGBUILD
 !bloop-desktop-bin/PKGBUILD
 !ddcci-driver-linux-dkms-patched/PKGBUILD
 !ddcci-driver-linux-dkms-patched/dkms.conf
 !ddcci-driver-linux-dkms-patched/linux-6.3-fix.patch
 !ddcci-driver-linux-dkms-patched/detection.patch
-!ddcui/PKGBUILD
-!ddcui/ddcui.desktop
 !hotate/PKGBUILD
 !ibus-akaza/PKGBUILD
-!kaiteki-bin/PKGBUILD
-!kaiteki-bin/app.kaiteki.kaiteki.desktop
-!nody-greeter-git/PKGBUILD
-!nody-greeter-git/package.patch
+!nody-greeter/PKGBUILD
+!nody-greeter/package.patch
 !otf-rubik/PKGBUILD
 !pipes-rs/PKGBUILD
 !qdrant/PKGBUILD
 !ttf-cinecaption/PKGBUILD
+!ttf-twemoji-color14/PKGBUILD
 !xkblas/PKGBUILD
 !yubioath-desktop6/PKGBUILD
