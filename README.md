@@ -7,7 +7,7 @@ PKGBUILDS for Arch Linux
 | pkgname                         | ver         | published | desc                                                                                           |
 | ------------------------------- | ----------- | --------- | ---------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin               | 0.4.6       | yes       | A fast code search engine written in Rust (client)                                             |
-| ddcci-driver-linux-dkms-patched | 0.4.3-2     | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): monitor detection patched           |
+| ddcci-driver-linux-dkms-patched | 0.4.3-3     | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): monitor detection patched           |
 | hotate                          | 0.1.0-alpha | no        | A vertical-writing editor                                                                      |
 | ibus-akaza                      | 0.2.0       | yes       | Yet another Japanese IME for IBus/Linux                                                        |
 | nody-greeter                    | 1.5.2       | yes       | LightDM greeter that allows to create wonderful themes with web technologies                   |
