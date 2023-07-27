@@ -17,10 +17,9 @@
 !ibus-akaza/PKGBUILD
 !nody-greeter/PKGBUILD
 !nody-greeter/package.patch
-!otf-rubik/PKGBUILD
+!ttf-rubik-vf/PKGBUILD
 !pipes-rs/PKGBUILD
 !qdrant/PKGBUILD
 !ttf-cinecaption/PKGBUILD
 !ttf-twemoji-color14/PKGBUILD
 !xkblas/PKGBUILD
-!yubioath-desktop6/PKGBUILD
