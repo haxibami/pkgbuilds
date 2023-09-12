@@ -17,6 +17,8 @@
 !ibus-akaza/PKGBUILD
 !nody-greeter/PKGBUILD
 !nody-greeter/package.patch
+!openconnect-sso-git/PKGBUILD
+!openconnect-sso-git/relax-poetry-version-constraints.patch
 !ttf-rubik-vf/PKGBUILD
 !pipes-rs/PKGBUILD
 !qdrant/PKGBUILD
