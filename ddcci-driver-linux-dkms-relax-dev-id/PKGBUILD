@@ -3,27 +3,24 @@
 # Contributor: Iwan Timmer <irtimmer at gmail dot com>
 # Patch: Oleksandr Natalenko <https://gitlab.com/post-factum>
 
-pkgname=ddcci-driver-linux-dkms-patched
-pkgver=0.4.3
-pkgrel=3
-pkgdesc="A pair of Linux kernel drivers for DDC/CI monitors (DKMS): monitor detection patched"
-arch=('i686' 'x86_64' 'aarch64')
+pkgname=ddcci-driver-linux-dkms-relax-dev-id
+pkgver=0.4.4
+pkgrel=1
+pkgdesc="A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification"
+arch=("i686" "x86_64" "aarch64")
 url="https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/"
-license=('GPL2')
-depends=('dkms')
+license=("GPL2")
+depends=("dkms")
 conflicts=("ddcci-driver-linux" "ddcci-driver-linux-dkms")
 source=(
   "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/archive/v${pkgver}/ddcci-driver-linux-v${pkgver}.tar.gz"
-  "linux-6.x-compatibility.patch"
   "detection.patch"
 )
-b2sums=('71f855b8d7e4b9a1b5d38a73d4a6df7453e72600596121f68c6782f180211bd935ab30cf0cf94cc0528e8d5f732449d35b24cd9584d17083318d819b81a0b259'
-        'f0891a961dce10a643693e2f7cc9a9442b33ed6e204d4ab5a2dc8693735a03c115da12f16f89ee01ec37b7e93f7b7c177765985defaec47a1f005fa75ace1c96'
-        '303019a353de8ca390da72e0209b4392153175664f1f484fc52247daa12c351c48df85de0e680d16a811089127ba514fed72cf32a1c23d249a72818052968c6d')
+sha256sums=('4e1ddcca2b9052ce46c3a4bd494b19ea6908f1fac013284cccb15151c03e59aa'
+            '3c8c27127f5a01c4c83324bf907b1cdf53ad9e91666286a697fef5247fbc8343')
 
 prepare() {
     cd "ddcci-driver-linux-v${pkgver}"
-    patch --forward --strip=1 --input="${srcdir}/linux-6.x-compatibility.patch"
     patch --forward --strip=1 --input="${srcdir}/detection.patch"
 }
 

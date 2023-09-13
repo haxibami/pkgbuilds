@@ -10,9 +10,8 @@
 !README.md
 
 !bloop-desktop-bin/PKGBUILD
-!ddcci-driver-linux-dkms-patched/PKGBUILD
-!ddcci-driver-linux-dkms-patched/linux-6.x-compatibility.patch
-!ddcci-driver-linux-dkms-patched/detection.patch
+!ddcci-driver-linux-dkms-relax-dev-id/PKGBUILD
+!ddcci-driver-linux-dkms-relax-dev-id/detection.patch
 !hotate/PKGBUILD
 !ibus-akaza/PKGBUILD
 !nody-greeter/PKGBUILD
