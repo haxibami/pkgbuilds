@@ -7,8 +7,9 @@ pkgdesc="LightDM greeter that allows to create wonderful themes with web technol
 arch=("any")
 url="https://github.com/JezerM/nody-greeter"
 license=("GPL3")
-depends=("lightdm" "gobject-introspection" "cairo")
+depends=("lightdm" "gobject-introspection" "cairo" "xorg-xsetroot")
 makedepends=("git" "nodejs<17" "npm" "python3")
+conflicts = ('web-greeter')
 source=("${pkgname}-${pkgver}::git+${url}.git#tag=${pkgver}" "package.patch")
 sha256sums=('SKIP'
             'bbea2e0dbded27707814e5844631a87b4b38a931011a0fa92ad0c3446fdce7c2')
