@@ -6,7 +6,7 @@ PKGBUILDS for Arch Linux
 
 | pkgname                              | ver         | published | desc                                                                                     |
 | ------------------------------------ | ----------- | --------- | ---------------------------------------------------------------------------------------- |
-| bloop-desktop-bin                    | 0.5.7       | yes       | A fast code search engine written in Rust (client)                                       |
+| bloop-desktop-bin                    | 0.5.10      | yes       | A fast code search engine written in Rust (client)                                       |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.4       | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification |
 | hotate                               | 0.1.0-alpha | no        | A vertical-writing editor                                                                |
 | ibus-akaza                           | 0.2.0       | yes       | Yet another Japanese IME for IBus/Linux                                                  |
