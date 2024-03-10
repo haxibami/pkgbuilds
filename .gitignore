@@ -18,6 +18,7 @@
 !nody-greeter/package.patch
 !openconnect-sso-git/PKGBUILD
 !openconnect-sso-git/relax-poetry-version-constraints.patch
+!ttf-san-francisco-jp/PKGBUILD
 !ttf-rubik-vf/PKGBUILD
 !pipes-rs/PKGBUILD
 !qdrant/PKGBUILD
