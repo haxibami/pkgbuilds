@@ -5,7 +5,7 @@
 
 pkgname=ddcci-driver-linux-dkms-relax-dev-id
 pkgver=0.4.4
-pkgrel=1
+pkgrel=2
 pkgdesc="A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification"
 arch=("i686" "x86_64" "aarch64")
 url="https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/"
@@ -14,13 +14,16 @@ depends=("dkms")
 conflicts=("ddcci-driver-linux" "ddcci-driver-linux-dkms")
 source=(
   "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux/-/archive/v${pkgver}/ddcci-driver-linux-v${pkgver}.tar.gz"
+  "linux.patch::https://gitlab.com/Sweenu/ddcci-driver-linux/-/commit/7f851f5fb8fbcd7b3a93aaedff90b27124e17a7e.patch"
   "detection.patch"
 )
 sha256sums=('4e1ddcca2b9052ce46c3a4bd494b19ea6908f1fac013284cccb15151c03e59aa'
+            '71f16672995cd781120ef61e63d86c3aec75959425106dbfd1313ed3f1727b2c'
             '3c8c27127f5a01c4c83324bf907b1cdf53ad9e91666286a697fef5247fbc8343')
 
 prepare() {
     cd "ddcci-driver-linux-v${pkgver}"
+    patch --forward --strip=1 --input="${srcdir}/linux.patch"
     patch --forward --strip=1 --input="${srcdir}/detection.patch"
 }
 
