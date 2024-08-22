@@ -13,6 +13,7 @@
 !ctrld-bin/PKGBUILD
 !ctrld-bin/ctrld.service
 !ctrld-bin/ctrld.toml
+!dug-bin/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/detection.patch
 !hotate/PKGBUILD
