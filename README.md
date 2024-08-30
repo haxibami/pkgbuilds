@@ -16,7 +16,7 @@ PKGBUILDS for Arch Linux
 | openconnect-sso-git                  | (git)       | yes       | Wrapper script for OpenConnect supporting Azure AD (SAMLv2) authentication (git version)  |
 | ttf-rubik-vf                         | 2.3.0       | yes       | A sans serif font family with slightly rounded corners: variable font version             |
 | pipes-rs                             | 1.6.3       | yes       | An over-engineered rewrite of pipes.sh in Rust                                            |
-| qdrant                               | 1.9.4       | yes       | Vector Database for the next generation of AI applications                                |
+| qdrant                               | 1.11.3      | yes       | Vector Database for the next generation of AI applications                                |
 | ttf-cinecaption                      | 2.27        | yes       | A cinematic Japanese font                                                                 |
 | ttf-san-francisco-jp                 | 1.0.0       | no        | Japanese version of San Francisco font, extracted from Apple's website                    |
 | typst-live-git                       | (git)       | yes       | A simple utility to watch for changes in your typst file and automatically recompile them |
