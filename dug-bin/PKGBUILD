@@ -1,7 +1,7 @@
 # Maintainer: haxibami <contact at haxibami dot net>
 
 pkgname=dug-bin
-pkgver=20240820
+pkgver=20240829
 pkgrel=1
 pkgdesc="Extensible DNS libraries written purely in Haskell"
 arch=('x86_64')
@@ -14,6 +14,6 @@ source=(
 sha256sums=('b53c855a6c95bebb0e4cc7d41f36ba6117d21374ab6f35b611ddbbd6afe24991')
 
 package() {
-  cd "${srcdir}"
+  cd "$srcdir"
   install -Dm755 dug-linux-x86_64 "${pkgdir}/usr/bin/dug"
 }

@@ -1,0 +1,43 @@
+# Maintainer: haxibami <contact at haxibami dot net>
+
+pkgname=python-qh3
+_pkgname="${pkgname/python-/}"
+pkgver=1.0.9
+pkgrel=1
+pkgdesc='Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)'
+arch=('aarch64' 'x86_64')
+url='https://github.com/jawah/qh3'
+license=('BSD-3-Clause')
+depends=('gcc-libs' 'glibc' 'python>3.7')
+makedepends=(
+  'clang' 'lld' 'cmake' 'git' 'python-build'
+  'python-installer' 'python-maturin' 'python-wheel'
+)
+checkdepends=('python-cryptography')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('7e28cab4cf72a0fde41b8d60228d9145ffb3b9ecbf3e64f15424e0fd9c2c9448')
+# If you want to build with GCC, you need to disable LTO
+# options=('!lto')
+
+build() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  export CC=clang CXX=clang++
+  export RUSTFLAGS="${RUSTFLAGS} -Clink-arg=-fuse-ld=lld"
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python -m installer -d tmp_install dist/*.whl
+  local python_version=$(python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
+  export PYTHONPATH="${PWD}/tmp_install/usr/lib/python${python_version}/site-packages"
+  rm -fR qh3
+  python -m unittest discover -v
+}
+
+package() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 -t "${pkgdir}/usr/share/licenses/${pkgname}/" LICENSE
+  install -Dm644 -t "${pkgdir}/usr/share/doc/${pkgname}/" {CHANGELOG,README}.rst SECURITY.md
+}
