@@ -4,7 +4,7 @@
 
 echo -e "|pkgname|ver|published|desc|\n|---|---|---|---|"
 
-fd -t f -d 2 --no-ignore PKGBUILD | while read PKGBUILD; do
-  source "$PKGBUILD"
+fd -t f -d 2 --no-ignore PKGBUILD | while read -r pkgbuild; do
+  source "$pkgbuild"
   echo -e "|$pkgname|$pkgver|no|$pkgdesc|"
 done
