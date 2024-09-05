@@ -7,11 +7,11 @@ PKGBUILDS for Arch Linux
 | pkgname                              | ver                | published | desc                                                                                                                   |
 | ------------------------------------ | ------------------ | --------- | ---------------------------------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin                    | 0.6.5              | yes       | A fast code search engine written in Rust (client)                                                                     |
-| bowline                              | 20240829           | no        | Extensible DNS libraries written purely in Haskell                                                                     |
+| bowline (bowline)                    | 20240829           | no        | Extensible DNS libraries written purely in Haskell                                                                     |
 | ctrld-bin                            | 1.3.7              | yes       | A highly configurable, multi-protocol DNS forwarding proxy                                                             |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.4              | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification                               |
-| dug                                  | 20240829           | no        | Extensible DNS libraries written purely in Haskell                                                                     |
-| dug-bin                              | 20240829           | no        | Extensible DNS libraries written purely in Haskell                                                                     |
+| dug (bowline)                        | 20240829           | no        | Extensible DNS libraries written purely in Haskell                                                                     |
+| dug-bin                              | 20240829           | yes       | Extensible DNS libraries written purely in Haskell                                                                     |
 | hotate                               | 0.1.0-alpha        | no        | A vertical-writing editor                                                                                              |
 | ibus-akaza                           | 0.2.0              | yes       | Yet another Japanese IME for IBus/Linux                                                                                |
 | nody-greeter                         | 1.6.2              | yes       | LightDM greeter that allows to create wonderful themes with web technologies                                           |
@@ -19,7 +19,7 @@ PKGBUILDS for Arch Linux
 | pipes-rs                             | 1.6.3              | yes       | An over-engineered rewrite of pipes.sh in Rust                                                                         |
 | python-apple-compress                | 0.2.3              | yes       | Python bindings for Apple's libcompression                                                                             |
 | python-asn1                          | 2.7.0              | yes       | ASN.1 encoder/decoder                                                                                                  |
-| python-bpylist2-git                  | v3.0.3.r3.gddb89e0 | no        | Parse and Generate binary plists and NSKeyedArchiver archives                                                          |
+| python-bpylist2-git                  | v3.0.3.r3.gddb89e0 | yes       | Parse and Generate binary plists and NSKeyedArchiver archives                                                          |
 | python-developer_disk_image          | 0.0.2              | yes       | Home for both DeveloperDiskImage files (iOS < 17.0) and Personalized files (iOS >= 17.0)                               |
 | python-inquirer3                     | 0.6.1              | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
 | python-ipsw_parser                   | 1.3.7              | yes       | Python3 utility for parsing and extracting data from IPSW                                                              |
