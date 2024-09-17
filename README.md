@@ -8,7 +8,7 @@ PKGBUILDS for Arch Linux
 | ------------------------------------ | ----------------- | --------- | ---------------------------------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin                    | 0.6.5             | yes       | A fast code search engine written in Rust (client)                                                                     |
 | bowline (bowline)                    | 20240829          | no        | Extensible DNS libraries written purely in Haskell                                                                     |
-| ctrld-bin                            | 1.3.7             | yes       | A highly configurable, multi-protocol DNS forwarding proxy                                                             |
+| ctrld-bin                            | 1.3.8             | yes       | A highly configurable, multi-protocol DNS forwarding proxy                                                             |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.4             | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification                               |
 | dug (bowline)                        | 20240829          | no        | Extensible DNS libraries written purely in Haskell                                                                     |
 | dug-bin                              | 20240829          | yes       | Extensible DNS libraries written purely in Haskell                                                                     |
@@ -32,7 +32,7 @@ PKGBUILDS for Arch Linux
 | python-pyimg4                        | 0.8.6             | yes       | A Python library/CLI tool for parsing Apple's Image4 format                                                            |
 | python-pykdebugparser                | 1.2.4             | yes       | Kdebug events and ktraces parser                                                                                       |
 | python-pylzss                        | 0.3.8             | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
-| python-pymobiledevice3               | 4.13.10           | yes       | Pure python3 implementation for working with iDevices                                                                  |
+| python-pymobiledevice3               | 4.13.16           | yes       | Pure python3 implementation for working with iDevices                                                                  |
 | python-python-pcapng                 | 2.1.1             | yes       | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                      |
 | python-pytun-pmd3                    | 2.0.9             | yes       | A fork of https://github.com/montag451/pytun with partial Darwin support                                               |
 | python-qh3                           | 1.0.9             | yes       | Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)                                        |
