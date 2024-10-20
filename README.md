@@ -32,10 +32,10 @@ PKGBUILDS for Arch Linux
 | python-pyimg4                        | 0.8.6             | yes       | A Python library/CLI tool for parsing Apple's Image4 format                                                            |
 | python-pykdebugparser                | 1.2.4             | yes       | Kdebug events and ktraces parser                                                                                       |
 | python-pylzss                        | 0.3.8             | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
-| python-pymobiledevice3               | 4.14.9            | yes       | Pure python3 implementation for working with iDevices                                                                  |
+| python-pymobiledevice3               | 4.14.10           | yes       | Pure python3 implementation for working with iDevices                                                                  |
 | python-python-pcapng                 | 2.1.1             | yes       | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                      |
 | python-pytun-pmd3                    | 2.0.9             | yes       | A fork of https://github.com/montag451/pytun with partial Darwin support                                               |
-| python-qh3                           | 1.2.0             | yes       | Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)                                        |
+| python-qh3                           | 1.2.1             | yes       | Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)                                        |
 | python-remotezip                     | 0.12.3            | yes       | Python module to access single members of a zip archive without downloading the full content from a remote web server  |
 | python-srptools                      | 1.0.1             | yes       | Tools to implement Secure Remote Password (SRP) authentication                                                         |
 | python-sslpsk-pmd3                   | 1.0.3             | yes       | Fork of sslpsk with support for latest python versions                                                                 |
