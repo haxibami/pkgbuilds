@@ -7,8 +7,8 @@ PKGBUILDS for Arch Linux
 | pkgname                              | ver               | published | desc                                                                                                                   |
 | ------------------------------------ | ----------------- | --------- | ---------------------------------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin                    | 0.6.5             | yes       | A fast code search engine written in Rust (client)                                                                     |
-| bowline (bowline)                    | 20240829          | no        | Extensible DNS libraries written purely in Haskell                                                                     |
-| ctrld-bin                            | 1.3.9             | yes       | A highly configurable, multi-protocol DNS forwarding proxy                                                             |
+| bowline (bowline)                    | 20240918          | no        | Extensible DNS libraries written purely in Haskell                                                                     |
+| ctrld-bin                            | 1.3.10            | yes       | A highly configurable, multi-protocol DNS forwarding proxy                                                             |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.4             | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification                               |
 | dug (bowline)                        | 20240918          | no        | Extensible DNS libraries written purely in Haskell                                                                     |
 | dug-bin                              | 20240918          | yes       | Extensible DNS libraries written purely in Haskell                                                                     |
