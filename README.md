@@ -20,9 +20,9 @@ PKGBUILDS for Arch Linux
 | python-apple-compress                | 0.2.3             | yes       | Python bindings for Apple's libcompression                                                                             |
 | python-asn1                          | 2.7.1             | yes       | ASN.1 encoder/decoder                                                                                                  |
 | python-bpylist2-git                  | 3.0.3.r3.gddb89e0 | yes       | Parse and Generate binary plists and NSKeyedArchiver archives                                                          |
-| python-developer_disk_image          | 0.0.2             | yes       | Home for both DeveloperDiskImage files (iOS < 17.0) and Personalized files (iOS >= 17.0)                               |
+| python-developer_disk_image          | 0.0.4             | yes       | Home for both DeveloperDiskImage files (iOS < 17.0) and Personalized files (iOS >= 17.0)                               |
 | python-inquirer3                     | 0.6.1             | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
-| python-ipsw_parser                   | 1.3.7             | yes       | Python3 utility for parsing and extracting data from IPSW                                                              |
+| python-ipsw_parser                   | 1.3.8             | yes       | Python3 utility for parsing and extracting data from IPSW                                                              |
 | python-la_panic                      | 0.5.0             | yes       | A tool for working with iPhone crash reports                                                                           |
 | python-lzfse                         | 0.4.2             | yes       | Python bindings for the LZFSE reference implementation                                                                 |
 | python-opack                         | 0.1.0             | yes       | Python library for parsing the opack format                                                                            |
@@ -32,11 +32,11 @@ PKGBUILDS for Arch Linux
 | python-pyimg4                        | 0.8.6             | yes       | A Python library/CLI tool for parsing Apple's Image4 format                                                            |
 | python-pykdebugparser                | 1.2.4             | yes       | Kdebug events and ktraces parser                                                                                       |
 | python-pylzss                        | 0.3.8             | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
-| python-pymobiledevice3               | 4.15.1            | yes       | Pure python3 implementation for working with iDevices                                                                  |
+| python-pymobiledevice3               | 4.16.0            | yes       | Pure python3 implementation for working with iDevices                                                                  |
 | python-python-pcapng                 | 2.1.1             | yes       | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                      |
 | python-pytun-pmd3                    | 2.0.9             | yes       | A fork of https://github.com/montag451/pytun with partial Darwin support                                               |
 | python-qh3                           | 1.2.1             | yes       | Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)                                        |
-| python-remotezip                     | 0.12.3            | yes       | Python module to access single members of a zip archive without downloading the full content from a remote web server  |
+| python-remotezip                     | 0.12.4            | yes       | Python module to access single members of a zip archive without downloading the full content from a remote web server  |
 | python-srptools                      | 1.0.1             | yes       | Tools to implement Secure Remote Password (SRP) authentication                                                         |
 | python-sslpsk-pmd3                   | 1.0.3             | yes       | Fork of sslpsk with support for latest python versions                                                                 |
 | qdrant                               | 1.12.3            | yes       | Vector Database for the next generation of AI applications                                                             |
