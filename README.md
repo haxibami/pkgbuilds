@@ -26,17 +26,19 @@ PKGBUILDS for Arch Linux
 | python-la_panic                      | 0.5.0             | yes       | A tool for working with iPhone crash reports                                                                           |
 | python-lzfse                         | 0.4.2             | yes       | Python bindings for the LZFSE reference implementation                                                                 |
 | python-opack                         | 0.1.0             | yes       | Python library for parsing the opack format                                                                            |
+| python-opack2                        | 0.0.1             | yes       | Python library for parsing the opack format                                                                            |
 | python-parameter-decorators          | 0.0.2             | yes       | Handy decorators for converting parameters                                                                             |
 | python-pycrashreport                 | 1.2.5             | yes       | Python3 parser for Apple's crash reports                                                                               |
 | python-pygnuutils                    | 0.1.1             | yes       | Pure python implementation for GNU utils                                                                               |
 | python-pyimg4                        | 0.8.6             | yes       | A Python library/CLI tool for parsing Apple's Image4 format                                                            |
 | python-pykdebugparser                | 1.2.4             | yes       | Kdebug events and ktraces parser                                                                                       |
 | python-pylzss                        | 0.3.8             | yes       | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer) |
-| python-pymobiledevice3               | 4.16.7            | yes       | Pure python3 implementation for working with iDevices                                                                  |
+| python-pymobiledevice3               | 4.17.1            | yes       | Pure python3 implementation for working with iDevices                                                                  |
 | python-python-pcapng                 | 2.1.1             | yes       | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                      |
 | python-pytun-pmd3                    | 2.0.9             | yes       | A fork of https://github.com/montag451/pytun with partial Darwin support                                               |
 | python-qh3                           | 1.2.1             | yes       | Lightweight QUIC and HTTP/3 implementation in Python (built from latest commit)                                        |
 | python-remotezip                     | 0.12.4            | yes       | Python module to access single members of a zip archive without downloading the full content from a remote web server  |
+| python-remotezip2                    | 0.0.2             | yes       | Python module to access single members of a zip archive without downloading the full content from a remote web server  |
 | python-srptools                      | 1.0.1             | yes       | Tools to implement Secure Remote Password (SRP) authentication                                                         |
 | python-sslpsk-pmd3                   | 1.0.3             | yes       | Fork of sslpsk with support for latest python versions                                                                 |
 | qdrant                               | 1.12.5            | yes       | Vector Database for the next generation of AI applications                                                             |

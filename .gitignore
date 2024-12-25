@@ -10,6 +10,8 @@
 
 !README.md
 
+!azule-git/PKGBUILD
+!azule-git/azule.sh
 !bloop-desktop-bin/PKGBUILD
 !ctrld-bin/PKGBUILD
 !ctrld-bin/ctrld.service
@@ -33,6 +35,7 @@
 !python-la_panic/PKGBUILD
 !python-lzfse/PKGBUILD
 !python-opack/PKGBUILD
+!python-opack2/PKGBUILD
 !python-parameter-decorators/PKGBUILD
 !python-pycrashreport/PKGBUILD
 !python-pygnuutils/PKGBUILD
@@ -44,10 +47,13 @@
 !python-pytun-pmd3/PKGBUILD
 !python-qh3/PKGBUILD
 !python-remotezip/PKGBUILD
+!python-remotezip2/PKGBUILD
 !python-srptools/PKGBUILD
 !python-sslpsk-pmd3/PKGBUILD
 !qdrant/PKGBUILD
 !sidejitserver/PKGBUILD
+!theos-git/PKGBUILD
+!theos-git/theos.sh
 !ttf-cinecaption/PKGBUILD
 !ttf-rubik-vf/PKGBUILD
 !ttf-san-francisco-jp/PKGBUILD
