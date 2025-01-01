@@ -2,7 +2,7 @@
 
 pkgname=python-pytun-pmd3
 _pkgname="${pkgname#python-}"
-pkgver=2.0.9
+pkgver=2.0.10
 pkgrel=1
 pkgdesc='A fork of https://github.com/montag451/pytun with partial Darwin support'
 arch=('any')
