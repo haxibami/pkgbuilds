@@ -32,16 +32,16 @@ PKGBUILDS for Arch Linux
 | python-pyimg4                        | 0.8.6               | no        | A Python library/CLI tool for parsing Apple's Image4 format                                                                  |
 | python-pykdebugparser                | 1.2.4               | no        | Kdebug events and ktraces parser                                                                                             |
 | python-pylzss                        | 0.3.8               | no        | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer)       |
-| python-pymobiledevice3               | 4.17.1              | no        | Pure python3 implementation for working with iDevices                                                                        |
+| python-pymobiledevice3               | 4.18.5              | no        | Pure python3 implementation for working with iDevices                                                                        |
 | python-python-pcapng                 | 2.1.1               | no        | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                            |
-| python-pytun-pmd3                    | 2.0.9               | no        | A fork of https://github.com/montag451/pytun with partial Darwin support                                                     |
-| python-qh3                           | 1.2.1               | no        | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
+| python-pytun-pmd3                    | 2.0.10              | no        | A fork of https://github.com/montag451/pytun with partial Darwin support                                                     |
+| python-qh3                           | 1.3.2               | no        | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
 | python-remotezip                     | 0.12.3              | no        | Python module to access single members of a zip archive without downloading the full content from a remote web server        |
 | python-remotezip2                    | 0.0.2               | no        | Python module to access single members of a zip archive without downloading the full content from a remote web server (fork) |
 | python-srptools                      | 1.0.1               | no        | Tools to implement Secure Remote Password (SRP) authentication                                                               |
 | python-sslpsk-pmd3                   | 1.0.3               | no        | Fork of sslpsk with support for latest python versions                                                                       |
-| qdrant                               | 1.12.5              | no        | Vector Database for the next generation of AI applications                                                                   |
-| sidejitserver                        | 1.3.6               | no        | A JIT enabler for iOS 17 with a Windows/macOS computer on the same WiFi                                                      |
+| qdrant                               | 1.13.1              | no        | Vector Database for the next generation of AI applications                                                                   |
+| sidejitserver                        | 1.4.2               | no        | A JIT enabler for iOS 17 with a Windows/macOS computer on the same WiFi                                                      |
 | ttf-cinecaption                      | 2.27                | no        | A cinematic Japanese font                                                                                                    |
 | ttf-rubik-vf                         | 2.3.0               | no        | A sans serif font family with slightly rounded corners: variable font version                                                |
 | ttf-san-francisco-jp                 | 1.0.0               | no        | San Francisco font for Japanese, extracted from apple.com                                                                    |
