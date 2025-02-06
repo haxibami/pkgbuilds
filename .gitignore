@@ -19,6 +19,12 @@
 !dug-bin/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/detection.patch
+!hollo/PKGBUILD
+!hollo/hollo.hook
+!hollo/hollo.install
+!hollo/hollo.service
+!hollo/hollo.sysusers
+!hollo/hollo.tmpfiles
 !hotate/PKGBUILD
 !ibus-akaza/PKGBUILD
 !nody-greeter/PKGBUILD

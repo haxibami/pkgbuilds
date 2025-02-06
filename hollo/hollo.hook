@@ -1,0 +1,9 @@
+[Trigger]
+Type = Package
+Operation = Upgrade
+Target = hollo
+
+[Action]
+Description = Restarting hollo daemon...
+When = PostTransaction
+Exec = /bin/bash -c '/usr/bin/systemctl is-active hollo.service -q && /usr/bin/systemctl restart hollo.service || /usr/bin/true'

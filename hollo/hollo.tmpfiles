@@ -1,0 +1,4 @@
+d /var/lib/hollo/cache          750 hollo hollo -
+d /var/lib/hollo/files          750 hollo hollo -
+d /var/lib/hollo/share          750 hollo hollo -
+Z /var/lib/hollo/files          750 hollo hollo -
