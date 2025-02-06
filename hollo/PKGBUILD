@@ -3,7 +3,7 @@
 pkgname=hollo
 pkgver=0.4.6
 pkgrel=1
-pkgdesc="YAMF (Yet another Misskey fork) bringing you no-nonsense fixes, features & improvements you actually want since 2023"
+pkgdesc="Federated single-user microblogging software"
 arch=("x86_64" "aarch64")
 url="https://github.com/fedify-dev/hollo"
 license=('AGPL-3.0-or-later')
@@ -27,11 +27,11 @@ source=(
 )
 
 sha256sums=('dcb6e4fbba307fd6ddb69c50e778c7be21e56cf2c39187fb5fd8a1ee6be9721d'
-            '1b017735f60e8e0be363f7686b62082dc09e41021535012181f8384a910b13c6'
-            '0c7fcd560f0eeb9fc532131e5e0d15f5502abc12f0d5588ad575e2f74787b3ac'
-            '46f0144b70687c42b9a87abbc9e5d0a3341c0893a163947a3152e7b66c6b84d6'
-            '76f8171bfa074bc1673071dfbefc221effefef3fcbc73c8e26686db5d5ba28b8'
-            '6f0c7f83b4728058d7d8adfb0baae3c529c99f259c2d9799bb31756ede472dcd')
+  '1b017735f60e8e0be363f7686b62082dc09e41021535012181f8384a910b13c6'
+  '0c7fcd560f0eeb9fc532131e5e0d15f5502abc12f0d5588ad575e2f74787b3ac'
+  '46f0144b70687c42b9a87abbc9e5d0a3341c0893a163947a3152e7b66c6b84d6'
+  '76f8171bfa074bc1673071dfbefc221effefef3fcbc73c8e26686db5d5ba28b8'
+  '6f0c7f83b4728058d7d8adfb0baae3c529c99f259c2d9799bb31756ede472dcd')
 
 prepare() {
   cd "${srcdir}/hollo"
