@@ -4,10 +4,11 @@
 
 PKGBUILDS for Arch Linux
 
+<!-- start -->
+
 | pkgname                              | ver                 | published | desc                                                                                                                         |
 | ------------------------------------ | ------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin                    | 0.6.5               | no        | A fast code search engine written in Rust                                                                                    |
-| bowline                              | 20240918            | no        | Extensible DNS libraries written purely in Haskell                                                                           |
 | ctrld-bin                            | 1.3.11              | no        | A highly configurable, multi-protocol DNS forwarding proxy                                                                   |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.5               | no        | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification                                     |
 | dug-bin                              | 20240918            | no        | Extensible DNS libraries written purely in Haskell                                                                           |
@@ -28,23 +29,25 @@ PKGBUILDS for Arch Linux
 | python-opack                         | 0.1.0               | no        | Python library for parsing the opack format                                                                                  |
 | python-opack2                        | 0.0.1               | no        | Python library for parsing the opack format (fork)                                                                           |
 | python-parameter-decorators          | 0.0.2               | no        | Handy decorators for converting parameters                                                                                   |
-| python-pycrashreport                 | 1.2.5               | no        | Python3 parser for Apple's crash reports                                                                                     |
+| python-pycrashreport                 | 1.2.6               | no        | Python3 parser for Apple's crash reports                                                                                     |
 | python-pygnuutils                    | 0.1.1               | no        | Pure python implementation for GNU utils                                                                                     |
 | python-pyimg4                        | 0.8.6               | no        | A Python library/CLI tool for parsing Apple's Image4 format                                                                  |
 | python-pykdebugparser                | 1.2.4               | no        | Kdebug events and ktraces parser                                                                                             |
 | python-pylzss                        | 0.3.8               | no        | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer)       |
-| python-pymobiledevice3               | 4.18.5              | no        | Pure python3 implementation for working with iDevices                                                                        |
+| python-pymobiledevice3               | 4.20.4              | no        | Pure python3 implementation for working with iDevices                                                                        |
 | python-python-pcapng                 | 2.1.1               | no        | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                            |
 | python-pytun-pmd3                    | 2.0.10              | no        | A fork of https://github.com/montag451/pytun with partial Darwin support                                                     |
-| python-qh3                           | 1.3.2               | no        | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
+| python-qh3                           | 1.4.1               | no        | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
 | python-remotezip                     | 0.12.3              | no        | Python module to access single members of a zip archive without downloading the full content from a remote web server        |
 | python-remotezip2                    | 0.0.2               | no        | Python module to access single members of a zip archive without downloading the full content from a remote web server (fork) |
 | python-srptools                      | 1.0.1               | no        | Tools to implement Secure Remote Password (SRP) authentication                                                               |
 | python-sslpsk-pmd3                   | 1.0.3               | no        | Fork of sslpsk with support for latest python versions                                                                       |
-| qdrant                               | 1.13.1              | no        | Vector Database for the next generation of AI applications                                                                   |
+| qdrant                               | 1.13.2              | no        | Vector Database for the next generation of AI applications                                                                   |
 | sidejitserver                        | 1.4.2               | no        | A JIT enabler for iOS 17 with a Windows/macOS computer on the same WiFi                                                      |
 | ttf-cinecaption                      | 2.27                | no        | A cinematic Japanese font                                                                                                    |
 | ttf-rubik-vf                         | 2.3.0               | no        | A sans serif font family with slightly rounded corners: variable font version                                                |
 | ttf-san-francisco-jp                 | 1.0.0               | no        | San Francisco font for Japanese, extracted from apple.com                                                                    |
 | typst-live-git                       | r33.4987e17         | no        | A simple utility to watch for changes in your typst file and automatically recompile them                                    |
 | xkblas                               | 0.5.0               | no        | a drop in replacement of blas library for multi-GPUs servers                                                                 |
+
+<!-- end -->

@@ -58,6 +58,7 @@
 !python-sslpsk-pmd3/PKGBUILD
 !qdrant/PKGBUILD
 !sidejitserver/PKGBUILD
+!sidejitserver/sidejitserver.service
 !theos-git/PKGBUILD
 !theos-git/theos.sh
 !ttf-cinecaption/PKGBUILD
