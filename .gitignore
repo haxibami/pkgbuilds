@@ -4,9 +4,7 @@
 
 !.gitignore
 
-!_dist.sh
-!_table.sh
-!apply_aur_repo.sh
+!util.sh
 
 !README.md
 
