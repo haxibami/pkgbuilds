@@ -3,7 +3,7 @@
 pkgname=python-pykdebugparser
 _pkgname="${pkgname#python-}"
 pkgver=1.2.4
-pkgrel=1
+pkgrel=2
 pkgdesc='Kdebug events and ktraces parser'
 arch=('any')
 url='https://github.com/matan1008/pykdebugparser'
@@ -26,6 +26,7 @@ check() {
 
 package() {
   cd "${srcdir}/${_pkgname}-${pkgver}"
+  rm -rf tests
   python -m installer --destdir="$pkgdir" dist/*.whl
   install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
