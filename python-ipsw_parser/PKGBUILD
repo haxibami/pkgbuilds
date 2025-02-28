@@ -3,7 +3,7 @@
 pkgname=python-ipsw_parser
 _pkgname="${pkgname#python-}"
 pkgver=1.4.0
-pkgrel=2
+pkgrel=1
 pkgdesc='Python3 utility for parsing and extracting data from IPSW'
 arch=('any')
 url='https://github.com/doronz88/ipsw_parser'
