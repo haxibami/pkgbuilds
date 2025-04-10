@@ -12,11 +12,11 @@ function checksums() {
 
 function readme() {
   echo "==> Updating README.md"
-  table="|pkgname|ver|published|desc|\n|---|---|---|---|"
+  table="|pkgname|ver|desc|\n|---|---|---|"
 
   for pkgbuild in $pkgbuilds; do
     source "$pkgbuild"
-    table="$table\n|$pkgname|$pkgver|no|$pkgdesc|"
+    table="$table\n|$pkgname|$pkgver|$pkgdesc|"
   done
 
   sed -i '/<!-- start -->/,/<!-- end -->/c<!-- start -->\n\n'"$table"'\n\n<!-- end -->' README.md
