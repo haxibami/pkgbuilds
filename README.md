@@ -9,7 +9,7 @@ PKGBUILDS for Arch Linux
 | pkgname                              | ver                 | desc                                                                                                                         |
 | ------------------------------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | bloop-desktop-bin                    | 0.6.5               | A fast code search engine written in Rust                                                                                    |
-| ctrld-bin                            | 1.4.1               | A highly configurable, multi-protocol DNS forwarding proxy                                                                   |
+| ctrld-bin                            | 1.4.2               | A highly configurable, multi-protocol DNS forwarding proxy                                                                   |
 | ddcci-driver-linux-dkms-relax-dev-id | 0.4.5               | A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification                                     |
 | dug-bin                              | 20250318            | Extensible DNS libraries written purely in Haskell                                                                           |
 | hollo                                | 0.5.5               | Federated single-user microblogging software                                                                                 |
@@ -34,10 +34,10 @@ PKGBUILDS for Arch Linux
 | python-pyimg4                        | 0.8.8               | A Python library/CLI tool for parsing Apple's Image4 format                                                                  |
 | python-pykdebugparser                | 1.2.4               | Kdebug events and ktraces parser                                                                                             |
 | python-pylzss                        | 0.3.8               | A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer)       |
-| python-pymobiledevice3               | 4.20.25             | Pure python3 implementation for working with iDevices                                                                        |
+| python-pymobiledevice3               | 4.20.26             | Pure python3 implementation for working with iDevices                                                                        |
 | python-python-pcapng                 | 2.1.1               | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                            |
 | python-pytun-pmd3                    | 2.0.10              | A fork of https://github.com/montag451/pytun with partial Darwin support                                                     |
-| python-qh3                           | 1.4.3               | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
+| python-qh3                           | 1.4.4               | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
 | python-remotezip                     | 0.12.3              | Python module to access single members of a zip archive without downloading the full content from a remote web server        |
 | python-remotezip2                    | 0.0.2               | Python module to access single members of a zip archive without downloading the full content from a remote web server (fork) |
 | python-srptools                      | 1.0.1               | Tools to implement Secure Remote Password (SRP) authentication                                                               |
