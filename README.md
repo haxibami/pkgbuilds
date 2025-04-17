@@ -37,7 +37,7 @@ PKGBUILDS for Arch Linux
 | python-pymobiledevice3               | 4.20.26             | Pure python3 implementation for working with iDevices                                                                        |
 | python-python-pcapng                 | 2.1.1               | Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools                            |
 | python-pytun-pmd3                    | 2.0.10              | A fork of https://github.com/montag451/pytun with partial Darwin support                                                     |
-| python-qh3                           | 1.4.4               | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
+| python-qh3                           | 1.4.5               | Lightweight QUIC and HTTP/3 implementation in Python                                                                         |
 | python-remotezip                     | 0.12.3              | Python module to access single members of a zip archive without downloading the full content from a remote web server        |
 | python-remotezip2                    | 0.0.2               | Python module to access single members of a zip archive without downloading the full content from a remote web server (fork) |
 | python-srptools                      | 1.0.1               | Tools to implement Secure Remote Password (SRP) authentication                                                               |
