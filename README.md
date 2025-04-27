@@ -42,7 +42,7 @@ PKGBUILDS for Arch Linux
 | python-remotezip2                    | 0.0.2               | Python module to access single members of a zip archive without downloading the full content from a remote web server (fork) |
 | python-srptools                      | 1.0.1               | Tools to implement Secure Remote Password (SRP) authentication                                                               |
 | python-sslpsk-pmd3                   | 1.0.3               | Fork of sslpsk with support for latest python versions                                                                       |
-| qdrant                               | 1.13.6              | Vector Database for the next generation of AI applications                                                                   |
+| qdrant                               | 1.14.0              | Vector Database for the next generation of AI applications                                                                   |
 | sidejitserver                        | 1.4.2               | A JIT enabler for iOS 17 with a Windows/macOS computer on the same WiFi                                                      |
 | ttf-cinecaption                      | 2.27                | A cinematic Japanese font                                                                                                    |
 | ttf-rubik-vf                         | 2.3.0               | A sans serif font family with slightly rounded corners: variable font version                                                |
