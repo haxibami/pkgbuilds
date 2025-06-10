@@ -12,7 +12,7 @@ PKGBUILDS for Arch Linux
 |ctrld-bin|1.4.3|A highly configurable, multi-protocol DNS forwarding proxy|
 |ddcci-driver-linux-dkms-relax-dev-id|0.4.4|A pair of Linux kernel drivers for DDC/CI monitors (DKMS): relaxed device identification|
 |dug-bin|20250318|Extensible DNS libraries written purely in Haskell|
-|hollo|0.5.6|Federated single-user microblogging software|
+|hollo|0.6.2|Federated single-user microblogging software|
 |hotate|0.1.0_alpha|vertical-writing editor|
 |ibus-akaza|0.2.0|Yet another Japanese IME for IBus/Linux|
 |nody-greeter|1.6.2|LightDM greeter that allows to create wonderful themes with web technologies. Made in Node.js|

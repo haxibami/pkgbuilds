@@ -13,17 +13,15 @@ Group=hollo
 
 Environment="XDG_DATA_HOME=/var/lib/hollo/share"
 Environment="NODE_ENV=production"
-Environment="COREPACK_HOME=/var/lib/hollo/cache/corepack"
 Environment="PNPM_HOME=/var/lib/hollo/cache/pnpm"
-Environment="FS_ASSET_PATH=/var/lib/hollo/files"
+Environment="FS_STORAGE_PATH=/var/lib/hollo/files"
 
 WorkingDirectory=/usr/share/hollo
 SyslogIdentifier=hollo
-ExecStart=/usr/bin/corepack pnpm run prod
+ExecStart=/usr/bin/pnpm run prod
 
 ReadOnlyPaths=/usr/share/hollo
 ReadWritePaths=/var/lib/hollo
-NoExecPaths=/var/lib/hollo
 
 RestrictSUIDSGID=true
 RestrictNamespaces=true

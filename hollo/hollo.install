@@ -2,6 +2,6 @@ post_install() {
   echo
   echo -e "--- Hollo post-installation instructions ---"
   echo -e "Please adjust configuration by adding environment variables in \e[1;32m/usr/lib/systemd/system/hollo.service.d/*.conf\e[0m before starting the service"
-  echo -e "Should you be migrating from a non-package install, please copy the contents of the \e[1;34mFS_ASSET_PATH\e[0m folder into \e[1;34m/var/lib/hollo/files\e[0m and run \e[1;35msudo chown -R hollo:hollo /var/lib/hollo/files\e[0m"
+  echo -e "Should you be migrating from a non-package install, please copy the contents of the \e[1;34mFS_STORAGE_PATH\e[0m folder into \e[1;34m/var/lib/hollo/files\e[0m and run \e[1;35msudo chown -R hollo:hollo /var/lib/hollo/files\e[0m"
   echo
 }
