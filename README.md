@@ -34,7 +34,7 @@ PKGBUILDS for Arch Linux
 |python-pyimg4|0.8.8|A Python library/CLI tool for parsing Apple's Image4 format|
 |python-pykdebugparser|1.2.7|Kdebug events and ktraces parser|
 |python-pylzss|0.3.8|A collection of common interactive command line user interfaces, based on Inquirer.js (fork of magmax/python-inquirer)|
-|python-pymobiledevice3|4.21.1|Pure python3 implementation for working with iDevices|
+|python-pymobiledevice3|4.21.3|Pure python3 implementation for working with iDevices|
 |python-python-pcapng|2.1.1|Pure-Python library to parse the pcap-ng format used by newer versions of dumpcap & similar tools|
 |python-pytun-pmd3|2.0.10|A fork of https://github.com/montag451/pytun with partial Darwin support|
 |python-qh3|1.5.2|Lightweight QUIC and HTTP/3 implementation in Python|
