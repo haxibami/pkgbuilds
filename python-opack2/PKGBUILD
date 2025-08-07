@@ -3,7 +3,7 @@
 pkgname=python-opack2
 _pkgname="${pkgname#python-}"
 pkgver=0.0.1
-pkgrel=3
+pkgrel=4
 pkgdesc='Python library for parsing the opack format (fork)'
 arch=('any')
 url='https://github.com/doronz88/opack2'
