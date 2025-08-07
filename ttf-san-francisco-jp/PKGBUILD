@@ -19,14 +19,14 @@ source=(
   'https://www.apple.com/wss/fonts/SF-Pro-JP/v1/SFProJP_heavy.ttf'
   )
 
-sha256sums=('a279d4921cd48207ebbc4af8488045180b6e4983402687d3069990ee5cfe1f0e'
-            '68c1d0970d239d10b12704a8cf2996af1281245a75a64088937c05dca2e6bd52'
-            '57576dbc595bbb0d020feca34459747eaecd773ec4bf87bdc04187f40ae5bed2'
-            '30819482a5525a839dc1ac7c6d95837031619776b008976628fbcb4321c6068f'
-            'bd201e8a59b8d8d895d74f12281f8c9bb42480e1fdace4b4e4ee3ce90d85f0c8'
-            'c0592b66f2d6b3c16c5a84a973b6b0da00d5897dd2bb8214a825ce7223baa9a4'
-            'efacae0d807e62185e2ddd94f202e83f331f800ac0f5c0c7df849afb854f857e'
-            'd9d7488b342e2999414d9eed4f13e57b5be71340030e0f73c79b528953f344db')
+sha256sums=('08aeec470893615f0fb8d0e4039824e6708afab41f7c0cfb04dffb4aaf606e29'
+            '692325004cfaf6e3274a0096f0994066709a4d1fec59e3a31f72db4c1fdffec7'
+            '9cdbad14852960d3252bcbc38d79408523478e85477c164d60cb67be6e1ed82e'
+            'ddd080549c730fab0a70e1f81655a6eb5af4213682a50e60de77373136dde845'
+            'b182f03755c21af7eb3bb9f3c762eceef932689c807745f3ef30493a9b0bb223'
+            '285cfdd6eaf075ae0f41fc141cce4d2baf3f28b98d8794602292cb171aa51b48'
+            '3bcffaefb6d2342f9111fe27a79a7987e5e14c5bf01555f86dfb57c8ec33ebbf'
+            '13d464cf12982111e0a56cb2a10fc34c516dbc56da23261f1d902fa79a8c69d7')
 
 DLAGENTS=(
   "http::/usr/bin/curl -A Mozilla -H Referer:https://www.apple.com/wss -fLC - --retry 3 --retry-delay 3 -o %o %u"

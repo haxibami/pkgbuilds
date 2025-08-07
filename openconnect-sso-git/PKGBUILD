@@ -19,8 +19,8 @@ makedepends=("git" "python-poetry" "python-build" "python-wheel" "python-install
 optdepends=()
 source=("${_pkgname}::git+https://github.com/vlaci/openconnect-sso/#branch=master"
         "relax-poetry-version-constraints.patch")
-sha256sums=("SKIP"
-            "49dd182b8f7a5415db1f9c44ad7a4919524ee205cb98fe7c72e15c20b6c1872d")
+sha256sums=('SKIP'
+            '49dd182b8f7a5415db1f9c44ad7a4919524ee205cb98fe7c72e15c20b6c1872d')
 
 pkgver() {
   cd "$_pkgname"

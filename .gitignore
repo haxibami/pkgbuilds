@@ -8,12 +8,6 @@
 
 !README.md
 
-!azule-git/PKGBUILD
-!azule-git/azule.sh
-!bloop-desktop-bin/PKGBUILD
-!ctrld-bin/PKGBUILD
-!ctrld-bin/ctrld.service
-!ctrld-bin/ctrld.toml
 !dug-bin/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/PKGBUILD
 !ddcci-driver-linux-dkms-relax-dev-id/detection.patch
@@ -24,9 +18,6 @@
 !hollo/hollo.sysusers
 !hollo/hollo.tmpfiles
 !hotate/PKGBUILD
-!ibus-akaza/PKGBUILD
-!nody-greeter/PKGBUILD
-!nody-greeter/package.patch
 !openconnect-sso-git/PKGBUILD
 !openconnect-sso-git/relax-poetry-version-constraints.patch
 !pipes-rs/PKGBUILD
@@ -54,13 +45,8 @@
 !python-remotezip2/PKGBUILD
 !python-srptools/PKGBUILD
 !python-sslpsk-pmd3/PKGBUILD
-!qdrant/PKGBUILD
 !sidejitserver/PKGBUILD
 !sidejitserver/sidejitserver.service
-!theos-git/PKGBUILD
-!theos-git/theos.sh
 !ttf-cinecaption/PKGBUILD
 !ttf-rubik-vf/PKGBUILD
 !ttf-san-francisco-jp/PKGBUILD
-!typst-live-git/PKGBUILD
-!xkblas/PKGBUILD
