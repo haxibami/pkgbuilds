@@ -1,7 +1,7 @@
 # Maintainer: haxibami <contact at haxibami dot net>
 
 pkgname=hollo
-pkgver=0.6.13
+pkgver=0.6.14
 pkgrel=1
 pkgdesc="Federated single-user microblogging software"
 arch=("x86_64" "aarch64")
@@ -26,7 +26,7 @@ source=(
   "hollo.hook"
 )
 
-sha256sums=('cf5aa81cc5deb354666d5e079cbec53a8a7c68aa7e6a8f3d9f8301c5c0b3f86f'
+sha256sums=('999161f4b55e1f75b6f904142a3f87684ff3a124881d35baa4b3ef16e2ef057e'
             'cb940e0cffaaf1756783017bfbd06d8a00e5ef0928f4f500c26f9558dd52cd14'
             '0c7fcd560f0eeb9fc532131e5e0d15f5502abc12f0d5588ad575e2f74787b3ac'
             '46f0144b70687c42b9a87abbc9e5d0a3341c0893a163947a3152e7b66c6b84d6'
