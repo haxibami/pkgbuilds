@@ -1,0 +1,34 @@
+# Maintainer: haxibami <io at h6i dot org>
+
+pkgname=python-typer-injector
+_pkgname="${pkgname#python-}"
+pkgver=0.2.0
+pkgrel=1
+pkgdesc="Dependency injection for typer"
+arch=('any')
+url='https://pypi.org/project/typer-injector/'
+license=('MIT')
+depends=('python' 'python-typer')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel' 'python-hatchling' 'python-hatch-vcs')
+checkdepends=('python-pytest')
+source=("${pkgname}-${pkgver}.tar.gz::https://files.pythonhosted.org/packages/source/${_pkgname::1}/${_pkgname//-/_}/${_pkgname//-/_}-${pkgver}.tar.gz")
+sha256sums=('9101774e4a7402143e33eb60cabf21f6f95fa0f9c2c5eb99d9da720b40b00aaf')
+
+build() {
+  cd "${srcdir}/${_pkgname//-/_}-${pkgver}"
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd "${srcdir}/${_pkgname//-/_}-${pkgver}"
+  python -m installer -d tmp_install dist/*.whl
+  local python_version=$(python -c 'import sys; print(".".join(map(str, sys.version_info[:2])))')
+  export PYTHONPATH="${PWD}/tmp_install/usr/lib/python${python_version}/site-packages"
+  python -m pytest tests/
+}
+
+package() {
+  cd "${srcdir}/${_pkgname//-/_}-${pkgver}"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

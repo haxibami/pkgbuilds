@@ -1,0 +1,31 @@
+# Maintainer: haxibami <io at h6i dot org>
+
+pkgname=python-construct-typing
+_pkgname="${pkgname#python-}"
+pkgver=0.7.0
+pkgrel=1
+pkgdesc="Extension for python-construct that adds typing features"
+arch=('any')
+url='https://github.com/timrid/construct-typing'
+license=('MIT')
+depends=('python' 'python-arrow' 'python-construct' 'python-cryptography' 'python-numpy' 'python-typing_extensions')
+makedepends=('python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+checkdepends=('python-cloudpickle' 'python-lz4' 'python-numpy' 'python-pytest' 'python-ruamel-yaml')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('bcfcad968e3b8add275180f09414cdf26749396374f3f57080ef4fd82fe0f4df')
+
+build() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python -m build --wheel --no-isolation
+}
+
+check() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python -m pytest tests/
+}
+
+package() {
+  cd "${srcdir}/${_pkgname}-${pkgver}"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

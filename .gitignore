@@ -24,6 +24,7 @@
 !python-apple-compress/PKGBUILD
 !python-asn1/PKGBUILD
 !python-bpylist2-git/PKGBUILD
+!python-construct-typing/PKGBUILD
 !python-developer_disk_image/PKGBUILD
 !python-inquirer3/PKGBUILD
 !python-ipsw_parser/PKGBUILD
@@ -45,6 +46,7 @@
 !python-remotezip2/PKGBUILD
 !python-srptools/PKGBUILD
 !python-sslpsk-pmd3/PKGBUILD
+!python-typer-injector/PKGBUILD
 !sidejitserver/PKGBUILD
 !sidejitserver/sidejitserver.service
 !ttf-cinecaption/PKGBUILD
