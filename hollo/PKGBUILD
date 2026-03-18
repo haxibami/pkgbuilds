@@ -1,7 +1,7 @@
 # Maintainer: haxibami <contact at haxibami dot net>
 
 pkgname=hollo
-pkgver=0.7.0
+pkgver=0.7.7
 pkgrel=1
 pkgdesc="Federated single-user microblogging software"
 arch=("x86_64" "aarch64")
@@ -26,12 +26,12 @@ source=(
   "hollo.hook"
 )
 
-sha256sums=('fa47104b7751af0a0d24d9227f2599ff59955a2b10f2457c3bb22927e969ca3d'
-  'cb940e0cffaaf1756783017bfbd06d8a00e5ef0928f4f500c26f9558dd52cd14'
-  '0c7fcd560f0eeb9fc532131e5e0d15f5502abc12f0d5588ad575e2f74787b3ac'
-  '46f0144b70687c42b9a87abbc9e5d0a3341c0893a163947a3152e7b66c6b84d6'
-  'b6c132360be5508bb01ae76193bea1b23ea80a6bbc73e4666687a6457188b597'
-  '6f0c7f83b4728058d7d8adfb0baae3c529c99f259c2d9799bb31756ede472dcd')
+sha256sums=('390a65a2e6af4328f7d6b13db7ec4f211523a4560086bd6eaccef5247914b3af'
+            'cb940e0cffaaf1756783017bfbd06d8a00e5ef0928f4f500c26f9558dd52cd14'
+            '0c7fcd560f0eeb9fc532131e5e0d15f5502abc12f0d5588ad575e2f74787b3ac'
+            '46f0144b70687c42b9a87abbc9e5d0a3341c0893a163947a3152e7b66c6b84d6'
+            'b6c132360be5508bb01ae76193bea1b23ea80a6bbc73e4666687a6457188b597'
+            '6f0c7f83b4728058d7d8adfb0baae3c529c99f259c2d9799bb31756ede472dcd')
 
 build() {
   cd "${srcdir}/hollo-${pkgver}"
